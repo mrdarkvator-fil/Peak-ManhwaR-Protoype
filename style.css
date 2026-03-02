@@ -1,0 +1,166 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon img{
+    width: 100px;
+    height: 80px;
+    margin-right: 80px;
+
+}
+.introduction{
+    color: white;
+    width: 100%;
+    font-style: italic;
+    text-align: center;
+    font-weight:light;
+
+}
+.logoname{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 80px;
+}
+
+.site-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #111;
+}
+
+.icon img{
+    width: 100px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.logoname{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 80px;
+    flex: 1;
+}
+
+.nav ul {
+    list-style: none;  /* Remove bullet points */
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.nav li a:hover {
+    color: #999;  /* Hover effect */
+}
+
+.featured{
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured h2{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.featured-card{
+    display: flex;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.featured-image{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.featured-info{
+    text-align: left;
+    flex: 1;
+}
+
+.featured-info h3{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.featured-info p{
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.featured-btn{
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.featured-btn:hover{
+    background-color: #ff5252;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin: 40px 0;
+}
+
+.contact-input, .contact-textarea {
+    background-color: #222;
+    border: 1px solid #444;
+    padding: 12px;
+    color: white;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+.contact-textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.contact-btn{
+    color: white;
+   border: none;
+   background-color: red;
+   border-radius: 5px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #ff5252;
+    transform: translateY(-2px);
+}
