@@ -154,7 +154,7 @@ body{
 .contact-btn{
     color: white;
    border: none;
-   background-color: red;
+   background-color: blue;
    border-radius: 5px;
    font-weight: bold;
    cursor: pointer;
@@ -163,4 +163,5 @@ body{
 .contact-btn:hover {
     background-color: #ff5252;
     transform: translateY(-2px);
+
 }
